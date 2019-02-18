@@ -1,0 +1,18 @@
+{
+  "deployments": {
+    "blockchain://5112f234674aacf2daccbe21a36193e59c69e751b6eb89e57b755f72898942c9/block/127083555db85eb7e86f82ced0e1e898418cb986e6d4979fdb5bb07a6789c392": {
+      "ERC20Token2": {
+        "0x26Eb6cdC6968C34B96b9343FcdB7b2E2b1769579": {
+          "timestamp": 1544368351655658
+        }
+      }
+    },
+    "blockchain://5112f234674aacf2daccbe21a36193e59c69e751b6eb89e57b755f72898942c9/block/ba5cdfa837a99b7f34684726952078393ed9b590b7148aa73bdbe43cd1ec740b": {
+      "ERC20Token": {
+        "0xd3B78F72AcE42c89774e03011d738f84683A76B1": {
+          "timestamp": 1544365532955736
+        }
+      }
+    }
+  }
+}
