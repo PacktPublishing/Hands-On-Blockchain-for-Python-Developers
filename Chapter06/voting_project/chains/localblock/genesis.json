@@ -1,0 +1,21 @@
+
+{
+    "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "coinbase": "0xfa146d7af4b92eb1751c3c9c644fa436a60f7b75",
+   "extraData": "0x686f727365",
+   "config": {
+       "daoForkBlock": 0,
+     "daoForSupport": true,
+    "homesteadBlock": 0
+    },
+   "timestamp": "0x0",
+    "mixhash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "nonce": "0xdeadbeefdeadbeef",
+    "alloc": {
+        "0xfa146d7af4b92eb1751c3c9c644fa436a60f7b75":{
+          "balance": "1000000000000000000000000000000"
+      }
+      },
+    "gasLimit": "0x47d5cc",
+    "difficulty": "0x01"
+}

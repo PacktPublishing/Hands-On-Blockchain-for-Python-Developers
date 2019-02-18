@@ -1,0 +1,6 @@
+=============== Oct 26, 2018 (WIB) ===============
+11:48:20.312326 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:48:20.320592 db@open opening
+11:48:20.321784 version@stat F·[] S·0B[] Sc·[]
+11:48:20.326414 db@janitor F·2 G·0
+11:48:20.326458 db@open done T·5.835614ms
