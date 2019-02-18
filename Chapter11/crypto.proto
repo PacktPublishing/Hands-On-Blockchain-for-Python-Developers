@@ -1,0 +1,16 @@
+syntax = "proto2";
+
+package crypto;
+
+message CryptoCurrency {
+  required string name = 1;
+  optional int32 total_supply = 2;
+
+  enum CryptoType {
+    BITCOIN = 0;
+    ERC20 = 1;
+    PRIVATE = 2;
+  }
+
+  required CryptoType type = 3 [default = ERC20];
+}

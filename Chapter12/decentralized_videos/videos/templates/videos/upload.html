@@ -1,0 +1,72 @@
+{% extends "videos/base.html" %}
+
+{% block content %}
+<section class="section">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="breadcrumbs">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li class="is-active"><a href="#" aria-current="page">Uploading Video</a></li>
+      </ul>
+    </nav>
+    <div class="content">
+      {% if upload_success %}
+        <div class="notification is-success">
+          Uploading video file is successful!
+        </div>
+      {% endif %}
+      <form action="{% url 'upload' %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="field">
+          <label class="label">Title</label>
+          <div class="control">
+            <input class="input" name="title" type="text" placeholder="Video Title">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Video File</label>
+          <div class="file has-name">
+            <label class="file-label">
+              <input id="video_file" class="file-input" type="file" name="video_file">
+              <span class="file-cta">
+                <span class="file-icon">
+                  <i class="fas fa-upload"></i>
+                </span>
+                <span class="file-label">
+                  Choose an mp4 video file…
+                </span>
+              </span>
+              <span id="video_filename" class="file-name">
+                Filename
+              </span>
+            </label>
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Account</label>
+          <div class="control">
+            <input class="input" name="video_user" type="text" placeholder="0x0000000000000000000000000000000000000000">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Password</label>
+          <div class="control">
+            <input class="input" name="password" type="password" placeholder="Password">
+          </div>
+        </div>
+        <div class="control">
+          <button class="button is-primary">Upload Video</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+<script type="text/javascript">
+var file = document.getElementById("video_file");
+file.onchange = function() {
+  if(file.files.length > 0) {
+    document.getElementById('video_filename').innerHTML = file.files[0].name;
+  }
+};
+</script>
+{% endblock %}

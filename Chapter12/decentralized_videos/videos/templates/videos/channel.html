@@ -1,0 +1,30 @@
+{% extends "videos/base.html" %}
+
+{% block content %}
+<section class="section">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="breadcrumbs">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li class="is-active"><a href="#">{{ video_user }}</a></li>
+      </ul>
+    </nav>
+    {% for video in videos %}
+      {% cycle '<div class="columns">' '' '' '' %}
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="{{ video.thumbnail }}" />
+              </figure>
+            </div>
+            <p class="card-footer-item">
+              <span><a href="{% url 'video' video_user=video.user index=video.index %}">{{ video.title }}</a></span>
+            </p>
+          </div>
+        </div>
+      {% cycle '' '' '' '</div>' %}
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

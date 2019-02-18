@@ -1,0 +1,47 @@
+{% extends "videos/base.html" %}
+
+{% block content %}
+<section class="section">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="breadcrumbs">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/channel/{{ video.user }}">Channel</a></li>
+        <li class="is-active"><a href="#" aria-current="page">{{ video.title }}</a></li>
+      </ul>
+    </nav>
+    <video controls preload=metadata width=1280 height=720>
+      <source src='{{ video.url }}' type='video/mp4'>
+      <p>Please use a modern browser to view this video.</p>
+    </video>
+    <article class="message is-primary">
+      <div class="message-body">
+        <span class="icon"><i class="fas fa-thumbs-up"></i></span>
+        <span>{{ video.aggregate_likes }}</span>
+      </div>
+    </article>
+    <div class="content">
+      <form action="{% url 'like' %}" method="post">
+        {% csrf_token %}
+        <input type="hidden" name="video_user" value="{{ video.user }}" />
+        <input type="hidden" name="index" value="{{ video.index }}" />
+        <div class="field">
+          <label class="label">Account</label>
+          <div class="control">
+            <input class="input" name="video_liker" type="text" placeholder="0x0000000000000000000000000000000000000000">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Password</label>
+          <div class="control">
+            <input class="input" name="password" type="password" placeholder="Password">
+          </div>
+        </div>
+        <div class="control">
+          <button class="button is-primary">Like Video!</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+{% endblock %}

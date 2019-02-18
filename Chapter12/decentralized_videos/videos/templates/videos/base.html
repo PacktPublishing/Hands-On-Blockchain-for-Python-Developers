@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Decentralized Videos Sharing Application</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body>
+    <section class="hero has-background-primary">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Packt Pub Decentralized Videos Sharing Application
+          </h1>
+          <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+            <div id="navbarBasic" class="navbar-menu">
+              <div class="navbar-start">
+                <a class="navbar-item" href="{% url 'index' %}">
+                  Home
+                </a>
+                <a class="navbar-item" href="{% url 'upload' %}">
+                  Upload
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </section>
+    {% block content %}
+    {% endblock %}
+  </body>
+</html>
