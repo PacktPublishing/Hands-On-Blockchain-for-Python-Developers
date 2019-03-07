@@ -9,7 +9,7 @@ This is the code repository for [Hands-On Blockchain for Python Developers](http
 ## What is this book about?
 Blockchain is seen as the main technological solution that works as a public ledger for all cryptocurrency transactions. This book serves as a practical guide to developing a full-fledged decentralized application with Python to interact with the various building blocks of blockchain applications.
 
-This book covers the following exciting features: <First 5 What you'll learn points>
+This book covers the following exciting features:
 * Understand blockchain technology and what makes it an immutable database
 * Use the features of web3.py API to interact with the smart contract
 * Create your own cryptocurrency and token in Ethereum using Vyper
@@ -44,49 +44,23 @@ With the following software and hardware list you can run all code files present
 
 ### Software and Hardware List
 
-	| Chapter  | Software required                   | OS required                        |
-	| -------- | ------------------------------------| -----------------------------------|
-	| 1        | R version 3.3.0                     | Windows, Mac OS X, and Linux (Any) |
-	| 2        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-	| 3        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-	| 4        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-	| 5        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-	| 6        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-	| 7        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-	| 8        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-	| 9        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-	| 10        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-	| 11        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-	| 12        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-	| 13        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-	| 14        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-	| 15        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
+| Chapter  | Software required                   | OS required                        |
+| -------- | ------------------------------------| -----------------------------------|
+| 1-12     | python 3.6, anaconda 5.3, Ganache and Truffle framework                  | Linux (Any) |
 
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781788627856_ColorImages.pdf).
 
-## Code in Action
 
-Click on the following link to see the Code in Action:
+### Related products <Other books you may enjoy>
+* Blockchain By Example [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/blockchain-example?utm_source=github&utm_medium=repository&utm_campaign=9781788475686) [[Amazon]](https://www.amazon.com/dp/1788475682)
+* Foundations of Blockchain [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/foundations-blockchain?utm_source=github&utm_medium=repository&utm_campaign=9781789139396) [[Amazon]](https://www.amazon.com/dp/1789139392)
 
-	[Placeholder link](www.youtube.com/URL)
-
-	### Related products <Other books you may enjoy>
-	* Linux: Powerful Server Administration [[Packt]](https://www.packtpub.com/networking-and-servers/linux-powerful-server-administration?utm_source=github&utm_medium=repository&utm_campaign=9781788293778) [[Amazon]](https://www.amazon.com/dp/1788293770)
-
-	* Linux Device Drivers Development [[Packt]](https://www.packtpub.com/networking-and-servers/linux-device-drivers-development?utm_source=github&utm_medium=repository&utm_campaign=9781785280009) [[Amazon]](https://www.amazon.com/dp/1788293770)
-
-	## Get to Know the Author(s)
-	**Author Name**
-	Bio
-
-	**Author Name**
-	Bio
+## Get to Know the Author
+**Arjuna Sky Kok** has experience more than 10 years in expressing himself as a software engineer. He has developed web applications using Symfony, Laravel, Ruby on Rails, and Django. He also has built mobile applications on top of Android and iOS platforms. Currently, he is researching Ethereum technology. Other than that, he teaches Android and iOS programming to students.
+He graduated from Bina Nusantara University with majors in Computer Science and Applied Mathematics. He always strives to become a holistic person by enjoying leisure activities, such as dancing Salsa, learning French, and playing StarCraft 2. He lives quietly
+in the bustling city of Jakarta.
 
 
-	## Other books by the authors
-	* [Mastering Linux Network Administration](https://www.packtpub.com/networking-and-servers/mastering-linux-network-administration?utm_source=github&utm_medium=repository&utm_campaign=9781784399597)
-	* [Linux Mint Essentials](https://www.packtpub.com/networking-and-servers/linux-mint-essentials?utm_source=github&utm_medium=repository&utm_campaign=9781782168157)
-
-	### Suggestions and Feedback
-	[Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
+### Suggestions and Feedback
+[Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
